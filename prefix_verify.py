@@ -24,7 +24,7 @@ def check_ip(ip_addr, test_origin):
     else:
         origin = origin[16:].decode("utf-8").rstrip()
 
-    return "tested ip: {} | tested origin: {} | found: {} | match: {} | databse {}".format(ip_addr, test_origin, origin, origin == test_origin, database)
+    return "tested ip: {} | tested origin: {} | found: {} | match: {} | database {}".format(ip_addr, test_origin, origin, origin == test_origin, database)
 
 
 df = pd.read_excel('~/Downloads/Documents/PrefixVerificationM.xlsx', index_col=[0, 1])
