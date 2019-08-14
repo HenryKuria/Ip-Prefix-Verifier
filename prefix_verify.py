@@ -1,10 +1,6 @@
 #!/usr/bin/python3
 
-import os
-import sys
 import pandas as pd
-from pandas import ExcelWriter
-from pandas import ExcelFile
 from subprocess import Popen, PIPE
 
 
