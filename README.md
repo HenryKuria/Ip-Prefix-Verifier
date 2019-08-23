@@ -9,17 +9,17 @@ inputs:
 
 **How it works**
 
-The script uses the whois command to check the AfriNIC database
-
-You should modify the path in the script to point to your spreadsheet
+The script uses the whois command to check the AfriNIC database.
+Paste the spreadsheet file in the same direcory as the prefix_verify.py script
+Execute the script
 
 **Installation** 
 
-clone the script, make it executable
+1. Make sure you have pip installed
+2. pip install -r requirements.txt
 
-pip install -r requirements.txt
 
-run script
+This script was made with love by Henry Mburu - tel- +254 710 586 622, henryairuk@gmail.com
 
 
 
